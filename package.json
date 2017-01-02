@@ -1,0 +1,17 @@
+{
+  "name": "samples.io",
+  "version": "1.0.0",
+  "description": "WIP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Amio <amio.cn@gmail.com>",
+  "license": "TBD",
+  "dependencies": {
+    "exif": "^0.6.0",
+    "next": "^1.2.3"
+  }
+}
