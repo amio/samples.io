@@ -9,7 +9,8 @@
   },
   "keywords": [],
   "author": "Amio <amio.cn@gmail.com>",
-  "license": "TBD",
+  "repository": "amio/samples.io",
+  "license": "MIT",
   "dependencies": {
     "exif": "^0.6.0",
     "next": "^1.2.3"
