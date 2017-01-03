@@ -3,7 +3,10 @@ import Head from 'next/head'
 export default () => (
   <Head>
     <style>{`
-      body, html {
+      html {
+        font-size: 14px;
+      }
+      body {
         background: #FFF;
         font: 14px menlo;
         color: #333;
@@ -11,7 +14,7 @@ export default () => (
       }
 
       .content-wrapper {
-        width: 1000px;
+        width: 1200px;
         margin: 0 auto;
       }
     `}</style>

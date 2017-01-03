@@ -1,10 +1,8 @@
-import React from 'react'
-import Page from '../layouts/main'
-import Uploader from '../components/uploader'
+import Page from '../components/layout-default'
+import Link from 'next/link'
 
 export default () => (
   <Page>
-    <div>Welcome to next.js!</div>
-    <Uploader />
+    <div>Click <Link href='/preview'><a>here</a></Link> to read more</div>
   </Page>
 )
